@@ -1,0 +1,41 @@
+.flower__top {
+  display: flex;
+  justify-content: space-between;
+}
+.flower__img {
+  flex: 0.2;
+}
+.flower__img > img {
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  box-shadow: 0px 10px 60px black;
+}
+.flower__detail {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+.card__text {
+  flex: 0.4;
+}
+.icon {
+  color: #0f6439 !important;
+  box-shadow: 0px 10px 30px black;
+}
+
+.flower__button > .button {
+  background-color: #0f6439;
+  color: #eef3f5;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+
+  border-top-right-radius: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
